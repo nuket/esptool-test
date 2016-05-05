@@ -1,0 +1,166 @@
+$ ./test.sh /dev/ttyUSB1 0x100000
+
+Testing 'Prolific_Technology_Inc._USB-Serial_Controller' at 115200:
+
+esptool.py v1.0.2-dev
+Connecting...
+MAC: 18:fe:34:d7:a4:3f
+
+esptool.py v1.0.2-dev
+Connecting...
+Chip ID: 0x00d7a43f
+
+esptool.py v1.0.2-dev
+Connecting...
+Manufacturer: e0
+Device: 4014
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Reading 1048576 @ 0x0... 1048576 (100 %)
+Read 1048576 bytes at 0x0 in 98.8 seconds (84.9 kbit/s)...
+
+esptool.py v1.0.2-dev
+Connecting...
+Erasing flash (this may take a while)...
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Writing 1048576 @ 0x0... ^CTraceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1124, in main
+    operation_func(esp, args)
+  File "./esptool.py", line 829, in write_flash
+    flasher.flash_write(address, image, not args.no_progress)
+  File "./esptool.py", line 618, in flash_write
+    self._esp._port.write(data[num_sent:num_sent + 1024])
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 538, in write
+    _, ready, _ = select.select([], [self.fd], [], None)
+KeyboardInterrupt
+
+Testing 'Prolific_Technology_Inc._USB-Serial_Controller' at 230400:
+
+esptool.py v1.0.2-dev
+Connecting...
+MAC: 18:fe:34:d7:a4:3f
+
+esptool.py v1.0.2-dev
+Connecting...
+Chip ID: 0x00d7a43f
+
+esptool.py v1.0.2-dev
+Connecting...
+Manufacturer: e0
+Device: 4014
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Reading 1048576 @ 0x0... 1048576 (100 %)
+Read 1048576 bytes at 0x0 in 48.7 seconds (172.2 kbit/s)...
+
+esptool.py v1.0.2-dev
+Connecting...
+Erasing flash (this may take a while)...
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Writing 1048576 @ 0x0... ^CTraceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1124, in main
+    operation_func(esp, args)
+  File "./esptool.py", line 829, in write_flash
+    flasher.flash_write(address, image, not args.no_progress)
+  File "./esptool.py", line 618, in flash_write
+    self._esp._port.write(data[num_sent:num_sent + 1024])
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 538, in write
+    _, ready, _ = select.select([], [self.fd], [], None)
+KeyboardInterrupt
+
+Testing 'Prolific_Technology_Inc._USB-Serial_Controller' at 460800:
+
+esptool.py v1.0.2-dev
+Connecting...
+MAC: 18:fe:34:d7:a4:3f
+
+esptool.py v1.0.2-dev
+Connecting...
+Chip ID: 0x00d7a43f
+
+esptool.py v1.0.2-dev
+Connecting...
+Manufacturer: e0
+Device: 4014
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Reading 1048576 @ 0x0... 1024 (0 %)
+A fatal error occurred: Invalid head of packet ('')
+
+esptool.py v1.0.2-dev
+Connecting...
+Erasing flash (this may take a while)...
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Writing 1048576 @ 0x0... ^CTraceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1124, in main
+    operation_func(esp, args)
+  File "./esptool.py", line 829, in write_flash
+    flasher.flash_write(address, image, not args.no_progress)
+  File "./esptool.py", line 618, in flash_write
+    self._esp._port.write(data[num_sent:num_sent + 1024])
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 538, in write
+    _, ready, _ = select.select([], [self.fd], [], None)
+KeyboardInterrupt
+
+Testing 'Prolific_Technology_Inc._USB-Serial_Controller' at 921600:
+
+esptool.py v1.0.2-dev
+Connecting...
+MAC: 18:fe:34:d7:a4:3f
+
+esptool.py v1.0.2-dev
+Connecting...
+Chip ID: 0x00d7a43f
+
+esptool.py v1.0.2-dev
+Connecting...
+Manufacturer: e0
+Device: 4014
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Reading 1048576 @ 0x0... 9216 (0 %)
+A fatal error occurred: Invalid head of packet ('\xff')
+
+esptool.py v1.0.2-dev
+Connecting...
+Erasing flash (this may take a while)...
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Writing 1048576 @ 0x0... ^CTraceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1124, in main
+    operation_func(esp, args)
+  File "./esptool.py", line 829, in write_flash
+    flasher.flash_write(address, image, not args.no_progress)
+  File "./esptool.py", line 618, in flash_write
+    self._esp._port.write(data[num_sent:num_sent + 1024])
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 538, in write
+    _, ready, _ = select.select([], [self.fd], [], None)
+KeyboardInterrupt
+
