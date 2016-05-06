@@ -1,0 +1,1031 @@
+$ ./esptool-test.sh /dev/ttyUSB0 0x80000
+
+Testing 'FTDI_FT232R_USB_UART_A50285BI' at 3000000:
+
+esptool.py v1.0.2-dev
+Connecting...
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1123, in main
+    esp.connect()
+  File "./esptool.py", line 158, in connect
+    self._port.setDTR(False)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 547, in setDTR
+    self.dtr = value
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 411, in dtr
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 607, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIC, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Connecting...
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1123, in main
+    esp.connect()
+  File "./esptool.py", line 164, in connect
+    self._port.setDTR(False)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 547, in setDTR
+    self.dtr = value
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 411, in dtr
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 607, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIC, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+Testing 'FTDI_FT232R_USB_UART_A50285BI' at 2500000:
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Connecting...
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1123, in main
+    esp.connect()
+  File "./esptool.py", line 161, in connect
+    self._port.setDTR(True)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 547, in setDTR
+    self.dtr = value
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 411, in dtr
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+Testing 'FTDI_FT232R_USB_UART_A50285BI' at 2000000:
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+Testing 'FTDI_FT232R_USB_UART_A50285BI' at 1750000:
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+Testing 'FTDI_FT232R_USB_UART_A50285BI' at 1500000:
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+Testing 'FTDI_FT232R_USB_UART_A50285BI' at 921600:
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+Testing 'FTDI_FT232R_USB_UART_A50285BI' at 460800:
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+Testing 'FTDI_FT232R_USB_UART_A50285BI' at 230400:
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+Testing 'FTDI_FT232R_USB_UART_A50285BI' at 115200:
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
+esptool.py v1.0.2-dev
+Traceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1122, in main
+    esp = ESPROM(args.port, initial_baud)
+  File "./esptool.py", line 70, in __init__
+    self._port = serial.Serial(port)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 311, in open
+    self._update_dtr_state()
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 605, in _update_dtr_state
+    fcntl.ioctl(self.fd, TIOCMBIS, TIOCM_DTR_str)
+IOError: [Errno 5] Input/output error
+
