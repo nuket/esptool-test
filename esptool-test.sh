@@ -13,7 +13,7 @@ if [[ $# -ne 2 ]]; then
     exit 1
 fi
 
-BAUDS=(115200 230400 460800 921600)
+BAUDS=(3000000 2500000 2000000 1750000 1500000 921600 460800 230400 115200)
 
 PORT=$1
 FLASH_SIZE=$2
@@ -57,7 +57,11 @@ for baud in "${BAUDS[@]}"; do
 
     echo
     ./esptool.py --port $PORT --baud $baud erase_flash
+    sleep 5
 
     echo
     ./esptool.py --port $PORT --baud $baud write_flash 0x0 dump.bin
+
+    echo
+    ./esptool.py --port $PORT --baud $baud verify_flash 0x0 dump.bin
 done
