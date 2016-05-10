@@ -1,0 +1,224 @@
+$ ./esptool-test.sh /dev/ttyUSB0 0x80000
+
+Testing 'Silicon_Labs_CP2104_USB_to_UART_Bridge_Controller_0100ACEA' at 3000000:
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+Testing 'Silicon_Labs_CP2104_USB_to_UART_Bridge_Controller_0100ACEA' at 1500000:
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+Testing 'Silicon_Labs_CP2104_USB_to_UART_Bridge_Controller_0100ACEA' at 921600:
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+Testing 'Silicon_Labs_CP2104_USB_to_UART_Bridge_Controller_0100ACEA' at 460800:
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+Testing 'Silicon_Labs_CP2104_USB_to_UART_Bridge_Controller_0100ACEA' at 230400:
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+Testing 'Silicon_Labs_CP2104_USB_to_UART_Bridge_Controller_0100ACEA' at 115200:
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
+esptool.py v1.0.2-dev
+Connecting...
+
+A fatal error occurred: Failed to connect to ESP8266
+
