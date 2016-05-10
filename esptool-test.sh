@@ -13,7 +13,7 @@ if [[ $# -ne 2 ]]; then
     exit 1
 fi
 
-BAUDS=(3000000 2500000 2000000 1750000 1500000 921600 460800 230400 115200)
+BAUDS=(3000000 1500000 921600 460800 230400 115200)
 
 PORT=$1
 FLASH_SIZE=$2
@@ -39,6 +39,21 @@ get_real_name() {
     done
 }
 
+generate_write_bin() {
+    echo
+    echo "Generating write.bin"
+
+    if [[ "${FLASH_SIZE}" == "0x80000" ]]; then
+        rm -f write.bin
+        dd if=/dev/urandom of=write.bin bs=512k count=1
+    fi
+
+    if [[ "${FLASH_SIZE}" == "0x100000" ]]; then
+        rm -f write.bin
+        dd if=/dev/urandom of=write.bin bs=1024k count=1
+    fi
+}
+
 for baud in "${BAUDS[@]}"; do
     echo
     echo "Testing '$(get_real_name $PORT)' at $baud:"
@@ -53,15 +68,17 @@ for baud in "${BAUDS[@]}"; do
     ./esptool.py --port $PORT --baud $baud flash_id
 
     echo
-    ./esptool.py --port $PORT --baud $baud read_flash 0x0 $FLASH_SIZE dump.bin
+    ./esptool.py --port $PORT --baud $baud read_flash 0x0 $FLASH_SIZE read.bin
 
     echo
     ./esptool.py --port $PORT --baud $baud erase_flash
-    sleep 5
+    sleep 7
+
+    generate_write_bin
 
     echo
-    ./esptool.py --port $PORT --baud $baud write_flash 0x0 dump.bin
+    ./esptool.py --port $PORT --baud $baud write_flash 0x0 write.bin
 
     echo
-    ./esptool.py --port $PORT --baud $baud verify_flash 0x0 dump.bin
+    ./esptool.py --port $PORT --baud $baud verify_flash 0x0 write.bin
 done
