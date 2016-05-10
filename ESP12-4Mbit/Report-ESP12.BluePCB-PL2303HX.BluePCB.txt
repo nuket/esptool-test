@@ -1,0 +1,427 @@
+$ ./esptool-test.sh /dev/ttyUSB0 0x80000
+
+Testing 'Prolific_Technology_Inc._USB-Serial_Controller' at 3000000:
+
+esptool.py v1.0.2-dev
+Connecting...
+MAC: 5c:cf:7f:07:8e:cd
+
+esptool.py v1.0.2-dev
+Connecting...
+Chip ID: 0x00078ecd
+
+esptool.py v1.0.2-dev
+Connecting...
+Manufacturer: e0
+Device: 4016
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Reading 524288 @ 0x0... 9216 (1 %)
+A fatal error occurred: Invalid head of packet ('\xff')
+
+esptool.py v1.0.2-dev
+Connecting...
+Erasing flash (this may take a while)...
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Writing 524288 @ 0x0... ^CTraceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1124, in main
+    operation_func(esp, args)
+  File "./esptool.py", line 829, in write_flash
+    flasher.flash_write(address, image, not args.no_progress)
+  File "./esptool.py", line 618, in flash_write
+    self._esp._port.write(data[num_sent:num_sent + 1024])
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 538, in write
+    _, ready, _ = select.select([], [self.fd], [], None)
+KeyboardInterrupt
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Verifying 0x80000 (524288) bytes @ 0x00000000 in flash against dump.bin...
+-- verify OK (digest matched)
+
+Testing 'Prolific_Technology_Inc._USB-Serial_Controller' at 2500000:
+
+esptool.py v1.0.2-dev
+Connecting...
+MAC: 5c:cf:7f:07:8e:cd
+
+esptool.py v1.0.2-dev
+Connecting...
+Chip ID: 0x00078ecd
+
+esptool.py v1.0.2-dev
+Connecting...
+Manufacturer: e0
+Device: 4016
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Reading 524288 @ 0x0... 6144 (1 %)
+A fatal error occurred: Invalid head of packet ('\xff')
+
+esptool.py v1.0.2-dev
+Connecting...
+Erasing flash (this may take a while)...
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+
+A fatal error occurred: Failed to write to target RAM
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Verifying 0x80000 (524288) bytes @ 0x00000000 in flash against dump.bin...
+-- verify OK (digest matched)
+
+Testing 'Prolific_Technology_Inc._USB-Serial_Controller' at 2000000:
+
+esptool.py v1.0.2-dev
+Connecting...
+MAC: 5c:cf:7f:07:8e:cd
+
+esptool.py v1.0.2-dev
+Connecting...
+Chip ID: 0x00078ecd
+
+esptool.py v1.0.2-dev
+Connecting...
+Manufacturer: e0
+Device: 4016
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Reading 524288 @ 0x0... ^CTraceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1124, in main
+    operation_func(esp, args)
+  File "./esptool.py", line 932, in read_flash
+    data = flasher.flash_read(args.address, args.size, not args.no_progress)
+  File "./esptool.py", line 648, in flash_read
+    p = self._esp.read()
+  File "./esptool.py", line 81, in read
+    c = self._port.read(1)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 481, in read
+    ready, _, _ = select.select([self.fd], [], [], timeout)
+KeyboardInterrupt
+
+esptool.py v1.0.2-dev
+Connecting...
+Erasing flash (this may take a while)...
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Writing 524288 @ 0x0... ^CTraceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1124, in main
+    operation_func(esp, args)
+  File "./esptool.py", line 829, in write_flash
+    flasher.flash_write(address, image, not args.no_progress)
+  File "./esptool.py", line 618, in flash_write
+    self._esp._port.write(data[num_sent:num_sent + 1024])
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 538, in write
+    _, ready, _ = select.select([], [self.fd], [], None)
+KeyboardInterrupt
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Verifying 0x80000 (524288) bytes @ 0x00000000 in flash against dump.bin...
+-- verify OK (digest matched)
+
+Testing 'Prolific_Technology_Inc._USB-Serial_Controller' at 1750000:
+
+esptool.py v1.0.2-dev
+Connecting...
+MAC: 5c:cf:7f:07:8e:cd
+
+esptool.py v1.0.2-dev
+Connecting...
+Chip ID: 0x00078ecd
+
+esptool.py v1.0.2-dev
+Connecting...
+Manufacturer: e0
+Device: 4016
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Reading 524288 @ 0x0... 1024 (0 %)
+A fatal error occurred: Invalid head of packet ('\xff')
+
+esptool.py v1.0.2-dev
+Connecting...
+Erasing flash (this may take a while)...
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Writing 524288 @ 0x0... ^CTraceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1124, in main
+    operation_func(esp, args)
+  File "./esptool.py", line 829, in write_flash
+    flasher.flash_write(address, image, not args.no_progress)
+  File "./esptool.py", line 618, in flash_write
+    self._esp._port.write(data[num_sent:num_sent + 1024])
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 538, in write
+    _, ready, _ = select.select([], [self.fd], [], None)
+KeyboardInterrupt
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+
+A fatal error occurred: Failed to write to target RAM
+
+Testing 'Prolific_Technology_Inc._USB-Serial_Controller' at 1500000:
+
+esptool.py v1.0.2-dev
+Connecting...
+MAC: 5c:cf:7f:07:8e:cd
+
+esptool.py v1.0.2-dev
+Connecting...
+Chip ID: 0x00078ecd
+
+esptool.py v1.0.2-dev
+Connecting...
+Manufacturer: e0
+Device: 4016
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Reading 524288 @ 0x0... ^CTraceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1124, in main
+    operation_func(esp, args)
+  File "./esptool.py", line 932, in read_flash
+    data = flasher.flash_read(args.address, args.size, not args.no_progress)
+  File "./esptool.py", line 648, in flash_read
+    p = self._esp.read()
+  File "./esptool.py", line 86, in read
+    c = self._port.read(1)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 481, in read
+    ready, _, _ = select.select([self.fd], [], [], timeout)
+KeyboardInterrupt
+
+esptool.py v1.0.2-dev
+Connecting...
+Erasing flash (this may take a while)...
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+
+A fatal error occurred: Failed to write to target RAM
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Verifying 0x80000 (524288) bytes @ 0x00000000 in flash against dump.bin...
+-- verify OK (digest matched)
+
+Testing 'Prolific_Technology_Inc._USB-Serial_Controller' at 921600:
+
+esptool.py v1.0.2-dev
+Connecting...
+MAC: 5c:cf:7f:07:8e:cd
+
+esptool.py v1.0.2-dev
+Connecting...
+Chip ID: 0x00078ecd
+
+esptool.py v1.0.2-dev
+Connecting...
+Manufacturer: e0
+Device: 4016
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Reading 524288 @ 0x0... 3072 (0 %)
+A fatal error occurred: Invalid head of packet ('\xff')
+
+esptool.py v1.0.2-dev
+Connecting...
+Erasing flash (this may take a while)...
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Writing 524288 @ 0x0... ^CTraceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1124, in main
+    operation_func(esp, args)
+  File "./esptool.py", line 829, in write_flash
+    flasher.flash_write(address, image, not args.no_progress)
+  File "./esptool.py", line 618, in flash_write
+    self._esp._port.write(data[num_sent:num_sent + 1024])
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 538, in write
+    _, ready, _ = select.select([], [self.fd], [], None)
+KeyboardInterrupt
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Verifying 0x80000 (524288) bytes @ 0x00000000 in flash against dump.bin...
+-- verify OK (digest matched)
+
+Testing 'Prolific_Technology_Inc._USB-Serial_Controller' at 460800:
+
+esptool.py v1.0.2-dev
+Connecting...
+MAC: 5c:cf:7f:07:8e:cd
+
+esptool.py v1.0.2-dev
+Connecting...
+Chip ID: 0x00078ecd
+
+esptool.py v1.0.2-dev
+Connecting...
+Manufacturer: e0
+Device: 4016
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Reading 524288 @ 0x0... 
+A fatal error occurred: Invalid head of packet ('')
+
+esptool.py v1.0.2-dev
+Connecting...
+Erasing flash (this may take a while)...
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+
+A fatal error occurred: Failed to write to target RAM
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Verifying 0x80000 (524288) bytes @ 0x00000000 in flash against dump.bin...
+-- verify OK (digest matched)
+
+Testing 'Prolific_Technology_Inc._USB-Serial_Controller' at 230400:
+
+esptool.py v1.0.2-dev
+Connecting...
+MAC: 5c:cf:7f:07:8e:cd
+
+esptool.py v1.0.2-dev
+Connecting...
+Chip ID: 0x00078ecd
+
+esptool.py v1.0.2-dev
+Connecting...
+Manufacturer: e0
+Device: 4016
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Reading 524288 @ 0x0... 524288 (100 %)
+Read 524288 bytes at 0x0 in 24.4 seconds (171.8 kbit/s)...
+
+esptool.py v1.0.2-dev
+Connecting...
+Erasing flash (this may take a while)...
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Writing 524288 @ 0x0... ^CTraceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1124, in main
+    operation_func(esp, args)
+  File "./esptool.py", line 829, in write_flash
+    flasher.flash_write(address, image, not args.no_progress)
+  File "./esptool.py", line 618, in flash_write
+    self._esp._port.write(data[num_sent:num_sent + 1024])
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 538, in write
+    _, ready, _ = select.select([], [self.fd], [], None)
+KeyboardInterrupt
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Verifying 0x80000 (524288) bytes @ 0x00000000 in flash against dump.bin...
+-- verify OK (digest matched)
+
+Testing 'Prolific_Technology_Inc._USB-Serial_Controller' at 115200:
+
+esptool.py v1.0.2-dev
+Connecting...
+MAC: 5c:cf:7f:07:8e:cd
+
+esptool.py v1.0.2-dev
+Connecting...
+Chip ID: 0x00078ecd
+
+esptool.py v1.0.2-dev
+Connecting...
+Manufacturer: e0
+Device: 4016
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Reading 524288 @ 0x0... 524288 (100 %)
+Read 524288 bytes at 0x0 in 49.7 seconds (84.5 kbit/s)...
+
+esptool.py v1.0.2-dev
+Connecting...
+Erasing flash (this may take a while)...
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+
+A fatal error occurred: Failed to write to target RAM
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+^CTraceback (most recent call last):
+  File "./esptool.py", line 1213, in <module>
+    main()
+  File "./esptool.py", line 1124, in main
+    operation_func(esp, args)
+  File "./esptool.py", line 972, in verify_flash
+    flasher = CesantaFlasher(esp)
+  File "./esptool.py", line 588, in __init__
+    esp.run_stub(json.loads(_CESANTA_FLASHER_STUB), [baud_rate], read_output=False)
+  File "./esptool.py", line 328, in run_stub
+    self.mem_block(pc, 0)
+  File "./esptool.py", line 202, in mem_block
+    ESPROM.checksum(data))[1] != "\0\0":
+  File "./esptool.py", line 119, in command
+    self.write(pkt)
+  File "./esptool.py", line 106, in write
+    self._port.write(buf)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 538, in write
+    _, ready, _ = select.select([], [self.fd], [], None)
+KeyboardInterrupt
+
