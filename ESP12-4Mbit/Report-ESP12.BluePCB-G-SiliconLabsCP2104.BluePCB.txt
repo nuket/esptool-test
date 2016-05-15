@@ -1,335 +1,261 @@
-$ ./esptool-test.sh /dev/ttyUSB0 0x80000
+$ ./esptool-test.sh /dev/ttyUSB0 0x400000
 
 Testing 'Silicon_Labs_CP2104_USB_to_UART_Bridge_Controller_0100ACEA' at 3000000:
 
 esptool.py v1.0.2-dev
 Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
+MAC: 5c:cf:7f:07:8e:cd
 
 esptool.py v1.0.2-dev
 Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
+Chip ID: 0x00078ecd
 
 esptool.py v1.0.2-dev
 Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
+Manufacturer: e0
+Device: 4016
 
 esptool.py v1.0.2-dev
 Connecting...
+Running Cesanta flasher stub...
 
-A fatal error occurred: Failed to connect to ESP8266
-
-Testing 'Silicon_Labs_CP2104_USB_to_UART_Bridge_Controller_0100ACEA' at 2500000:
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
+A fatal error occurred: Invalid head of packet ('\xf0')
 
 esptool.py v1.0.2-dev
 Connecting...
+Erasing flash (this may take a while)...
 
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
+Generating write.bin
+1+0 records in
+1+0 records out
+4194304 bytes (4,2 MB, 4,0 MiB) copied, 0,617821 s, 6,8 MB/s
 
 esptool.py v1.0.2-dev
 Connecting...
+Running Cesanta flasher stub...
 
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
+A fatal error occurred: Invalid head of packet ('\xf0')
 
 esptool.py v1.0.2-dev
 Connecting...
+Running Cesanta flasher stub...
+Verifying 0x400000 (4194304) bytes @ 0x00000000 in flash against write.bin...
+-- verify FAILED (digest mismatch)
 
-A fatal error occurred: Failed to connect to ESP8266
-
-Testing 'Silicon_Labs_CP2104_USB_to_UART_Bridge_Controller_0100ACEA' at 2000000:
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-Testing 'Silicon_Labs_CP2104_USB_to_UART_Bridge_Controller_0100ACEA' at 1750000:
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
+A fatal error occurred: Verify failed.
 
 Testing 'Silicon_Labs_CP2104_USB_to_UART_Bridge_Controller_0100ACEA' at 1500000:
 
 esptool.py v1.0.2-dev
 Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
+MAC: 5c:cf:7f:07:8e:cd
 
 esptool.py v1.0.2-dev
 Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
+Chip ID: 0x00078ecd
 
 esptool.py v1.0.2-dev
 Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
+Manufacturer: e0
+Device: 4016
 
 esptool.py v1.0.2-dev
 Connecting...
+Running Cesanta flasher stub...
+Reading 4194304 @ 0x0... 4194304 (100 %)
+Read 4194304 bytes at 0x0 in 35.0 seconds (959.1 kbit/s)...
 
-A fatal error occurred: Failed to connect to ESP8266
+esptool.py v1.0.2-dev
+Connecting...
+Erasing flash (this may take a while)...
+
+Generating write.bin
+1+0 records in
+1+0 records out
+4194304 bytes (4,2 MB, 4,0 MiB) copied, 0,612731 s, 6,8 MB/s
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Writing 4194304 @ 0x0... 4194304 (100 %)
+Wrote 4194304 bytes at 0x0 in 45.9 seconds (731.4 kbit/s)...
+Leaving...
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Verifying 0x400000 (4194304) bytes @ 0x00000000 in flash against write.bin...
+-- verify OK (digest matched)
 
 Testing 'Silicon_Labs_CP2104_USB_to_UART_Bridge_Controller_0100ACEA' at 921600:
 
 esptool.py v1.0.2-dev
 Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
+MAC: 5c:cf:7f:07:8e:cd
 
 esptool.py v1.0.2-dev
 Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
+Chip ID: 0x00078ecd
 
 esptool.py v1.0.2-dev
 Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
+Manufacturer: e0
+Device: 4016
 
 esptool.py v1.0.2-dev
 Connecting...
+Running Cesanta flasher stub...
+Reading 4194304 @ 0x0... 4194304 (100 %)
+Read 4194304 bytes at 0x0 in 71.2 seconds (471.5 kbit/s)...
 
-A fatal error occurred: Failed to connect to ESP8266
+esptool.py v1.0.2-dev
+Connecting...
+Erasing flash (this may take a while)...
+
+Generating write.bin
+1+0 records in
+1+0 records out
+4194304 bytes (4,2 MB, 4,0 MiB) copied, 0,610383 s, 6,9 MB/s
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Writing 4194304 @ 0x0... 4194304 (100 %)
+Wrote 4194304 bytes at 0x0 in 59.7 seconds (561.6 kbit/s)...
+Leaving...
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Verifying 0x400000 (4194304) bytes @ 0x00000000 in flash against write.bin...
+-- verify OK (digest matched)
 
 Testing 'Silicon_Labs_CP2104_USB_to_UART_Bridge_Controller_0100ACEA' at 460800:
 
 esptool.py v1.0.2-dev
 Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
+MAC: 5c:cf:7f:07:8e:cd
 
 esptool.py v1.0.2-dev
 Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
+Chip ID: 0x00078ecd
 
 esptool.py v1.0.2-dev
 Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
+Manufacturer: e0
+Device: 4016
 
 esptool.py v1.0.2-dev
 Connecting...
+Running Cesanta flasher stub...
+Reading 4194304 @ 0x0... 4194304 (100 %)
+Read 4194304 bytes at 0x0 in 135.6 seconds (247.4 kbit/s)...
 
-A fatal error occurred: Failed to connect to ESP8266
+esptool.py v1.0.2-dev
+Connecting...
+Erasing flash (this may take a while)...
+
+Generating write.bin
+1+0 records in
+1+0 records out
+4194304 bytes (4,2 MB, 4,0 MiB) copied, 0,614735 s, 6,8 MB/s
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Writing 4194304 @ 0x0... 4194304 (100 %)
+Wrote 4194304 bytes at 0x0 in 98.6 seconds (340.2 kbit/s)...
+Leaving...
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Verifying 0x400000 (4194304) bytes @ 0x00000000 in flash against write.bin...
+-- verify OK (digest matched)
 
 Testing 'Silicon_Labs_CP2104_USB_to_UART_Bridge_Controller_0100ACEA' at 230400:
 
 esptool.py v1.0.2-dev
 Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
+MAC: 5c:cf:7f:07:8e:cd
 
 esptool.py v1.0.2-dev
 Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
+Chip ID: 0x00078ecd
 
 esptool.py v1.0.2-dev
 Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
+Manufacturer: e0
+Device: 4016
 
 esptool.py v1.0.2-dev
 Connecting...
+Running Cesanta flasher stub...
+Reading 4194304 @ 0x0... 4194304 (100 %)
+Read 4194304 bytes at 0x0 in 247.2 seconds (135.7 kbit/s)...
 
-A fatal error occurred: Failed to connect to ESP8266
+esptool.py v1.0.2-dev
+Connecting...
+Erasing flash (this may take a while)...
+
+Generating write.bin
+1+0 records in
+1+0 records out
+4194304 bytes (4,2 MB, 4,0 MiB) copied, 0,611911 s, 6,9 MB/s
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Writing 4194304 @ 0x0... 4194304 (100 %)
+Wrote 4194304 bytes at 0x0 in 181.8 seconds (184.6 kbit/s)...
+Leaving...
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Verifying 0x400000 (4194304) bytes @ 0x00000000 in flash against write.bin...
+-- verify OK (digest matched)
 
 Testing 'Silicon_Labs_CP2104_USB_to_UART_Bridge_Controller_0100ACEA' at 115200:
 
 esptool.py v1.0.2-dev
 Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
+MAC: 5c:cf:7f:07:8e:cd
 
 esptool.py v1.0.2-dev
 Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
+Chip ID: 0x00078ecd
 
 esptool.py v1.0.2-dev
 Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
-
-esptool.py v1.0.2-dev
-Connecting...
-
-A fatal error occurred: Failed to connect to ESP8266
+Manufacturer: e0
+Device: 4016
 
 esptool.py v1.0.2-dev
 Connecting...
+Running Cesanta flasher stub...
+Reading 4194304 @ 0x0... 4194304 (100 %)
+Read 4194304 bytes at 0x0 in 472.3 seconds (71.0 kbit/s)...
 
-A fatal error occurred: Failed to connect to ESP8266
+esptool.py v1.0.2-dev
+Connecting...
+Erasing flash (this may take a while)...
+
+Generating write.bin
+1+0 records in
+1+0 records out
+4194304 bytes (4,2 MB, 4,0 MiB) copied, 0,613046 s, 6,8 MB/s
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Writing 4194304 @ 0x0... 4194304 (100 %)
+Wrote 4194304 bytes at 0x0 in 363.6 seconds (92.3 kbit/s)...
+Leaving...
+
+esptool.py v1.0.2-dev
+Connecting...
+Running Cesanta flasher stub...
+Verifying 0x400000 (4194304) bytes @ 0x00000000 in flash against write.bin...
+-- verify OK (digest matched)
 
