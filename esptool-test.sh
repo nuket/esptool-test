@@ -17,6 +17,7 @@ BAUDS=(3000000 1500000 921600 460800 230400 115200)
 
 PORT=$1
 FLASH_SIZE=$2
+FLASH_SIZE_DECIMAL=$(printf "%d\n" ${FLASH_SIZE})
 
 get_real_name() {
     # Stolen shamelessly from:
@@ -43,15 +44,8 @@ generate_write_bin() {
     echo
     echo "Generating write.bin"
 
-    if [[ "${FLASH_SIZE}" == "0x80000" ]]; then
-        rm -f write.bin
-        dd if=/dev/urandom of=write.bin bs=512k count=1
-    fi
-
-    if [[ "${FLASH_SIZE}" == "0x100000" ]]; then
-        rm -f write.bin
-        dd if=/dev/urandom of=write.bin bs=1024k count=1
-    fi
+    rm -f write.bin
+    dd if=/dev/urandom of=write.bin bs=${FLASH_SIZE_DECIMAL} count=1
 }
 
 for baud in "${BAUDS[@]}"; do
